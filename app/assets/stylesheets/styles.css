@@ -3,7 +3,6 @@ header {
  text-align: center;
  color: #E1E7E4;
  height: 80px;
- margin-top;
 }
 
 header nav {
@@ -27,6 +26,18 @@ header button {
 header button:hover {
   color: #04FBFB;
 }
+nav li {
+  display: inline-block;
+  padding: 24px 10px;
+  font-size: 2rem;
+}
+
+nav li:hover {
+  background: #3F8DA7;
+  color: white;
+  cursor: pointer;
+}
+
 .hero-image {
   background-image: url(https://i.imgur.com/UUdAaYL.jpg);
   height: 800px;
