@@ -1,0 +1,3 @@
+class Standing < ApplicationRecord
+  
+end
