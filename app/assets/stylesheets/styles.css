@@ -28,14 +28,23 @@ header button:hover {
 }
 nav li {
   display: inline-block;
+  text-decoration: none;
   padding: 24px 10px;
   font-size: 2rem;
+}
+nav li:link {
+  text-decoration: none;
 }
 
 nav li:hover {
   background: #3F8DA7;
   color: white;
   cursor: pointer;
+  text-decoration: none;
+}
+nav a {
+  color: white;
+  text-decoration:none;
 }
 
 .hero-image {
