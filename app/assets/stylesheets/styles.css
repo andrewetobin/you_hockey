@@ -3,7 +3,7 @@ header {
  text-align: center;
  color: #E1E7E4;
  height: 80px;
- padding: 0 25px;
+ margin-top;
 }
 
 header nav {
@@ -26,4 +26,12 @@ header button {
 
 header button:hover {
   color: #04FBFB;
+}
+.hero-image {
+  background-image: url(https://i.imgur.com/UUdAaYL.jpg);
+  height: 800px;
+  padding-top: 10%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
