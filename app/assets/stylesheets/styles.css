@@ -1,0 +1,29 @@
+header {
+ background: #1007D8;
+ text-align: center;
+ color: #E1E7E4;
+ height: 80px;
+ padding: 0 25px;
+}
+
+header nav {
+  float: right;
+}
+
+header button {
+ float: left;
+ color: #fffdd0;
+ background-color: #1007D8;
+ font-size: 40px;
+ height: 50px;
+ width: 70px;
+ margin-top: 15px;
+ margin-bottom: 6px;
+ font-weight: 800;
+ border: none;
+ text-align: center;
+}
+
+header button:hover {
+  color: #04FBFB;
+}
