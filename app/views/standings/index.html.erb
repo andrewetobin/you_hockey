@@ -1,24 +1,24 @@
-<h2>Current Standings</h2>
 
 <div class='standings'>
   <h2>Current Standings</h2>
   <table id='rankings'>
     <tr>
-      <th class='favorites-title'>Title</th>
-      <th class='favorites-artist'>Artist</th>
-      <th class='favorites-genre'>Genre</th>
-      <th class='favorites-rating'>Rating</th>
-      <th></th>
+      <th>Conference</th>
+      <th>Division</th>
+      <th>Team</th>
+      <th>Wins</th>
+      <th>Losses</th>
+      <th>Percentage</th>
     </tr>
+    <% @results.each do |result| %>
+        <tr>
+          <td><%= result[:Conference] %></td>
+          <td><%= result[:Division] %></td>
+          <td><%= result[:City]%> <%= result[:Name] %></td>
+          <td><%= result[:Wins] %></td>
+          <td><%= result[:Losses] %></td>
+          <td><%= result[:Percentage] %></td>
+        </tr>
+    <% end %>
   </table>
 </div>
-
-
-
-<% @results.each do |result| %>
-    <%= result[:City] %>
-    <%= result[:Name] %>
-    <%= result[:Wins] %>
-    <%= result[:Losses] %>
-    <%= result[:Percentage] %>
-<% end %>
