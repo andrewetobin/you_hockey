@@ -1,0 +1,87 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/andrewtobin/4module/projects/you_hockey/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/andrewtobin/4module/projects/you_hockey/app/helpers/welcome_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/andrewtobin/4module/projects/you_hockey/app/controllers/welcome_controller.rb": [
+        1,
+        null,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/andrewtobin/4module/projects/you_hockey/app/controllers/application_controller.rb": [
+        1,
+        null
+      ],
+      "/Users/andrewtobin/4module/projects/you_hockey/app/models/standings_facade.rb": [
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        7,
+        null,
+        null,
+        1,
+        7,
+        null,
+        null
+      ],
+      "/Users/andrewtobin/4module/projects/you_hockey/app/services/fantasy_data_service.rb": [
+        1,
+        null,
+        null,
+        1,
+        7,
+        null,
+        null,
+        1,
+        7,
+        null,
+        null,
+        1,
+        7,
+        7,
+        null,
+        7,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/andrewtobin/4module/projects/you_hockey/app/models/standing.rb": [
+        0,
+        null,
+        0
+      ],
+      "/Users/andrewtobin/4module/projects/you_hockey/app/models/application_record.rb": [
+        0,
+        0,
+        0
+      ],
+      "/Users/andrewtobin/4module/projects/you_hockey/app/controllers/standings_controller.rb": [
+        0,
+        null,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0
+      ]
+    },
+    "timestamp": 1546882083
+  }
+}
