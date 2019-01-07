@@ -8,7 +8,7 @@ describe StandingsFacade, type: :model do
   end
 
   describe 'instance methods' do
-    it 'examples' do
+    it 'will retrieve current standings' do
       VCR.use_cassette("instance method results") do
         standings_facade = StandingsFacade.new
 

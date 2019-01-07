@@ -21,16 +21,6 @@
         1,
         null
       ],
-      "/Users/andrewtobin/4module/projects/you_hockey/app/models/standing.rb": [
-        1,
-        null,
-        null
-      ],
-      "/Users/andrewtobin/4module/projects/you_hockey/app/models/application_record.rb": [
-        1,
-        1,
-        null
-      ],
       "/Users/andrewtobin/4module/projects/you_hockey/app/models/standings_facade.rb": [
         1,
         1,
@@ -71,13 +61,13 @@
         null,
         null
       ],
-      "/Users/andrewtobin/4module/projects/you_hockey/app/mailers/application_mailer.rb": [
+      "/Users/andrewtobin/4module/projects/you_hockey/app/models/standing.rb": [
         0,
-        0,
-        0,
+        null,
         0
       ],
-      "/Users/andrewtobin/4module/projects/you_hockey/app/jobs/application_job.rb": [
+      "/Users/andrewtobin/4module/projects/you_hockey/app/models/application_record.rb": [
+        0,
         0,
         0
       ],
@@ -90,20 +80,8 @@
         0,
         null,
         0
-      ],
-      "/Users/andrewtobin/4module/projects/you_hockey/app/channels/application_cable/connection.rb": [
-        0,
-        0,
-        0,
-        0
-      ],
-      "/Users/andrewtobin/4module/projects/you_hockey/app/channels/application_cable/channel.rb": [
-        0,
-        0,
-        0,
-        0
       ]
     },
-    "timestamp": 1546825139
+    "timestamp": 1546882083
   }
 }
