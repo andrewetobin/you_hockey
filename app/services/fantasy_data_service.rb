@@ -1,5 +1,12 @@
 class FantasyDataService
 
+  def todays_date
+    date = Time.now.strftime("%Y-%m-%d")
+  end
+
+  def games
+    JSON.parse(games_response.body, symbolize_names: true)
+  end
 
   def rankings
     JSON.parse(response.body, symbolize_names: true)
@@ -7,6 +14,10 @@ class FantasyDataService
 
   def response
     conn.get("v3/nhl/scores/json/Standings/2019")
+  end
+
+  def games_response
+    conn.get("v3/nhl/scores/json/GamesByDate/#{todays_date}")
   end
 
   def conn

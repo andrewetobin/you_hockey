@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   root "welcome#index"
 
   resources :standings, only: [:index]
+  resources :games, only: [:index]
 end

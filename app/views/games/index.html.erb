@@ -1,0 +1,17 @@
+<div class='games'>
+  <h2>Today's Games</h2>
+  <section class="list-games">
+    <% @games.each do |game| %>
+      <article class='game'>
+        <br />
+        <br />
+        <br />
+        <p><%= @teams[game[:AwayTeam]]%></p>
+        <p> vs. </p>
+        <p><%= @teams[game[:HomeTeam]] %> </p>
+        <br />
+
+      </article>
+    <% end %>
+  </section>
+</div>

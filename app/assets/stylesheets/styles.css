@@ -26,6 +26,11 @@ header button {
 header button:hover {
   color: #04FBFB;
 }
+header a {
+  color: white;
+  text-decoration: none;
+}
+
 nav li {
   display: inline-block;
   text-decoration: none;
@@ -98,4 +103,38 @@ tr:hover {
   font-weight: 800;
   text-align: center;
   padding: 4% 0% 4%;
+}
+.list-games {
+  flex-flow: row wrap;
+  display: flex;
+  width: 100%
+}
+.games {
+  width: 68.5%;
+  height: auto;
+  width: 70%;
+  height: 100%;
+  margin: auto;
+  border-radius: 30px;
+  background-color: #808080;
+  opacity: 0.8;
+}
+.games h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+    padding: 4% 0% 4%;
+}
+.game {
+  align-self: flex-start;
+  margin: 15px;
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 15px;
+  text-align: center;
+  position: relative;
+  font-size: 1rem;
 }
