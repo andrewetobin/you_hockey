@@ -4,4 +4,5 @@ Rails.application.routes.draw do
 
   resources :standings, only: [:index]
   resources :games, only: [:index]
+  resources :bests, only: [:index]
 end
