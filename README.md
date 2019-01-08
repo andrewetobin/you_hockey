@@ -1,24 +1,38 @@
-# README
+YouHockey? README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+Visit the deployed site here: https://youhockey.herokuapp.com/
 
-* Ruby version
 
-* System dependencies
+## Overview
+This application is designed for the Hockey fan to enjoy a collection of "Best of" videos and information. For example, Best Saves, Best Fights, Best Goals, etc. The app also gives current NHL team standings, along with what games are happening today.  
 
-* Configuration
 
-* Database creation
 
-* Database initialization
+## Setup
 
-* How to run the test suite
+- Fork or clone this repo: `https://github.com/andrewetobin/you_hockey`
+- Run `bundle install`
+- Sign up for an API key with FantasyData here: https://developer.fantasydata.com/
+- Run `bundle exec figaro install` to hide API key. 
+- Hide API key in config/application.yml file. 
+- Run `rails s` to spin up the server
+- Visit `localhost:3000` in your browser.
 
-* Services (job queues, cache servers, search engines, etc.)
+## Testing
+- Run `rspec` for the test suite.
+- Run `open coverage/index.html` for the test coverage report.
 
-* Deployment instructions
 
-* ...
+## Gems
+
+* [Rails-RSpec](https://github.com/rspec/rspec-rails)
+* [Launchy](https://github.com/copiousfreetime/launchy)
+* [Shoulda-Matchers](https://github.com/thoughtbot/shoulda-matchers)
+* [Pry](https://github.com/pry/pry)
+* [Figaro](https://github.com/laserlemon/figaro)
+* [Capybara](https://github.com/teamcapybara/capybara)
+* [SimpleCov](https://github.com/colszowka/simplecov)
+* [Faraday](https://github.com/lostisland/faraday)
+* [VCR](https://github.com/vcr/vcr)
+* [Webmock](https://github.com/bblimke/webmock)
