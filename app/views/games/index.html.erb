@@ -9,15 +9,7 @@
       <th>Losses</th>
       <th>Percentage</th>
     </tr>
-    <% @results.each do |result| %>
-        <tr>
-          <td><%= result[:Conference] %></td>
-          <td><%= result[:Division] %></td>
-          <td><%= result[:City]%> <%= result[:Name] %></td>
-          <td><%= result[:Wins] %></td>
-          <td><%= result[:Losses] %></td>
-          <td><%= result[:Percentage] %></td>
-        </tr>
+    <% @games.each do |game| %>
     <% end %>
   </table>
 </div>
