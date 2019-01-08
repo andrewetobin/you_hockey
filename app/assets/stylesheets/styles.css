@@ -98,7 +98,17 @@ th, td {
 tr:hover {
   background-color: #f5f5f5;
 }
-.standings h2 {
+.bests {
+  font-weight: 800;
+  background-color: #808080;
+  opacity: 0.8;
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  border-radius: 30px;
+  overflow-y: auto;
+}
+.bests h2 {
   font-size: 2.5rem;
   font-weight: 800;
   text-align: center;
