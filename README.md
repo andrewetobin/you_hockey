@@ -20,6 +20,8 @@ This application is designed for the Hockey fan to enjoy a collection of "Best o
 ## Testing
 - Run `rspec` for the test suite.
 - Run `open coverage/index.html` for the test coverage report.
+Latest Test Coverage
+<img src='youhockey_testcoverage.png'>
 
 
 ## Gems
