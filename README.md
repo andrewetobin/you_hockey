@@ -1,5 +1,3 @@
-YouHockey? README
-
 
 Visit the deployed site here: https://youhockey.herokuapp.com/
 
