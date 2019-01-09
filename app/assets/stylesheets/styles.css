@@ -100,7 +100,8 @@ tr:hover {
 }
 .bests {
   font-weight: 800;
-  background-color: #808080;
+    background: radial-gradient(ellipse farthest-corner at right bottom, #ffbf00 0%, #FDB931 8%, #ffbf00 30%, #8A6E2F 40%, transparent 80%),
+    radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #ffbf00 8%, #D1B464 25%, #ffbf00 62.5%, #5d4a1f 100%);
   width: 95%;
   height: 100%;
   margin: auto;
@@ -110,6 +111,7 @@ tr:hover {
 .bests h2 {
   font-size: 2.5rem;
   font-weight: 800;
+  color: white;
   text-align: center;
   padding: 4% 0% 4%;
 }
@@ -146,4 +148,7 @@ tr:hover {
   text-align: center;
   position: relative;
   font-size: 1rem;
+}
+.youtube {
+  padding: 0px 10px 30px 40px;
 }
