@@ -36,3 +36,6 @@ This application is designed for the Hockey fan to enjoy a collection of "Best o
 * [Faraday](https://github.com/lostisland/faraday)
 * [VCR](https://github.com/vcr/vcr)
 * [Webmock](https://github.com/bblimke/webmock)
+
+## Demo
+![](youhockey.gif)
